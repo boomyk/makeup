@@ -328,3 +328,50 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     text-transform: uppercase;
 }
+
+.work-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #e5e5e5;
+    padding-bottom: 45px;
+}
+
+.work-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.work-top-col {
+    display: flex;
+}
+
+.work-col-txt {
+    margin: 0 20px;
+}
+
+.work-col-txt p {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.work-col-txt span {
+    font-size: 15px;
+    color: #a0a0a0;
+}
+
+.work-ikon {
+    width: 25%;
+    text-align: center;
+}
+
+.work-content {
+    margin-top: 60px;
+}
+
+.work-bottom-col {
+    width: 33%;
+    display: flex;
+}
