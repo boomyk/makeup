@@ -950,3 +950,136 @@ h6 {
     background-color: #f38181;
     margin: 0 auto;
 }
+
+/*footer*/
+
+.footer-inner {
+    display: flex;
+}
+
+.footer-block {
+    flex-grow: 1;
+    width: 30%;
+}
+
+.footer-grow-block {
+    flex-grow: 70;
+    padding-right: 50px;
+}
+
+.footer-logo a {
+    font-size: 46px;
+    font-weight: 700;
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.footer-text span {
+    font-size: 15px;
+    color: #999999;
+}
+
+.footer-text p {
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 40px 0 20px 0;
+}
+
+.footer-subscribe-counter {
+    font-size: 18px;
+}
+
+.footer-network span {
+    font-size: 14px;
+    font-style: italic;
+    color: #999999;
+}
+
+.footer-network i {
+    color: #95e1d3;
+    font-size: 15px;
+    padding: 6px;
+}
+
+.footer-network {
+    padding: 15px 0;
+}
+
+.footer-form {
+    position: relative;
+}
+
+.footer-email {
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    font-size: 15px;
+    font-style: italic;
+    color: #e7e7e7;
+    font-weight: 500;
+}
+
+.footer-submit {
+    position: absolute;
+    border: none;
+    padding: 0;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #95e1d3;
+}
+
+.footer-form {
+    padding-top: 20px;
+}
+
+.footer-blog-item {
+    display: flex;
+    min-height: 110px;
+    height: 100%;
+}
+
+.footer-block-h {
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.footer-blog-img {
+    margin-right: 20px;
+}
+
+.footer-blog-tittle {
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-blog-data {
+    font-size: 13px;
+    font-style: italic;
+    color: #adadad;
+}
+
+.footer-gallary {
+    display: flex;
+}
+
+.footer-gall-raw img {
+    display: block;
+    padding: 1px;
+}
+
+.footer-instagram-link a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #595959;
+    font-style: italic;
+    padding-top: 20px;
+    display: block;
+}
