@@ -1,3 +1,231 @@
+@media (max-width: 1230px) {
+  .intro-title {
+    font-size: 120px; }
 
+  .intro-suptitle {
+    font-size: 52px; } }
+@media (max-width: 990px) {
+  .intro-title {
+    font-size: 80px; }
+
+  .intro-suptitle {
+    font-size: 42px; }
+
+  /*stat*/
+  .stat {
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .stat-item {
+    flex: none;
+    width: 33.33333%;
+    border: none; }
+
+  .stat-item:last-child {
+    border-right: none; }
+
+  /*we work with*/
+  .work-tittle {
+    margin: 0 auto; }
+
+  .work-content {
+    margin-top: 0; }
+
+  .work-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 0;
+    padding-bottom: 0; }
+
+  .work-top-col {
+    align-items: center;
+    justify-content: center; }
+
+  .work-ikon {
+    width: auto; }
+
+  .work-col-txt p {
+    margin: 0; }
+
+  .work-col-txt {
+    margin: 20px 0 20px 10px; }
+
+  .work-bottom {
+    flex-direction: column;
+    padding-top: 0; }
+
+  .work-bottom-col {
+    flex-direction: column;
+    width: auto; }
+
+  .design {
+    min-height: 800px;
+    height: auto; }
+
+  .design-content img {
+    max-width: 100%;
+    height: auto; }
+
+  .service-collapse {
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .ser-collapse-img {
+    padding-right: 0;
+    width: 100%;
+    text-align: center; }
+    .ser-collapse-img img {
+      margin: 0 auto; }
+
+  .ser-collapse-carusel {
+    width: 100%;
+    margin-top: 20px; }
+
+  .quote-arrow {
+    padding: 0 10px; }
+
+  .quote-icon {
+    margin: 0 20px; }
+
+  .quote-text {
+    font-size: 18px; }
+
+  .team-persons-social {
+    top: 50%; }
+
+  .team-persons-social {
+    min-width: 170px;
+    height: 40px;
+    font-size: 25px;
+    transform: translate3d(0, -100%, 0); } }
+@media (max-width: 770px) {
+  .header-nav {
+    display: none; }
+
+  .slider-text {
+    display: none; }
+
+  .slider-item {
+    text-align: center; }
+
+  .slider-item.active:before {
+    width: 40%; }
+
+  .section {
+    padding: 40px 0; }
+
+  .about {
+    margin: 40px -15px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center; }
+
+  .about-item {
+    width: auto;
+    margin: 15px 0; }
+
+  .stat-count {
+    font-size: 42px; }
+
+  .stat-txt {
+    font-size: 12px; }
+
+  .stat-item {
+    width: 100%;
+    padding: 30px 0; }
+
+  .design {
+    min-height: 750px;
+    height: auto; }
+
+  .quote-icon {
+    display: none; }
+
+  .quote-txt {
+    padding: 0 40px;
+    align-self: center; }
+
+  .team-persons-block {
+    margin-right: 0; }
+
+  .team-persons {
+    justify-content: center;
+    flex-wrap: wrap; }
+
+  .team-persons-social {
+    min-width: 220px;
+    height: 50px;
+    font-size: 30px;
+    transform: translate3d(0, -50%, 0);
+    top: 45%; }
+
+  .team-names {
+    padding: 20px 0; }
+
+  .wedo-gallery {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; }
+
+  .wedo-gall-col {
+    flex: initial; } }
+@media (max-width: 575px) {
+  .intro-title {
+    font-size: 40px; }
+
+  .intro-suptitle {
+    font-size: 22px; }
+
+  /*section*/
+  .section-tittle {
+    font-size: 24px; }
+
+  .section-suptittle {
+    font-size: 20px; }
+
+  .section-tittle:after {
+    margin: 10px auto; }
+
+  .about-item {
+    margin: 5px 15px; }
+
+  .design {
+    min-height: 600px; }
+
+  .quote-txt {
+    text-align: center;
+    padding: 0 10px; }
+
+  .quote-text {
+    font-size: 15px; }
+
+  .quote-autor:before {
+    width: 30px; }
+
+  .quote-autor {
+    font-size: 19px; } }
+@media (max-width: 525px) {
+  .ser-collapse-carusel span {
+    left: 5%; }
+
+  .carusel-left-icon {
+    display: none; }
+
+  .brands-positions {
+    flex-wrap: wrap; }
+
+  .wedo-gallery {
+    padding: 0 20px; } }
+@media (max-width: 350px) {
+  .team-persons-social {
+    min-width: 170px;
+    height: 40px;
+    font-size: 25px;
+    transform: translate3d(0, -100%, 0); } }
+@media (max-width: 320px) {
+  .design {
+    min-height: 400px; } }
 
 /*# sourceMappingURL=media.css.map */

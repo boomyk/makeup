@@ -25,8 +25,9 @@ h6 {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /*888888888888header88888888*/
@@ -247,13 +248,14 @@ h6 {
 /*About*/
 
 .about {
-    margin-top: 80px;
+    margin: 80px -15px 0;
     display: flex;
     justify-content: space-between;
 }
 
 .about-item {
-    width: 380px;
+    width: 33.33333%;
+    margin: 0 15px;
     position: relative;
     cursor: pointer;
     background-color: #95e1d3;
@@ -276,6 +278,7 @@ h6 {
 .about-img img {
     display: block;
     transition: opacity 0.1s linear;
+    width: 100%;
 }
 
 .about-text {
@@ -449,8 +452,11 @@ h6 {
 
 .ser-collapse-carusel span {
     position: absolute;
-    left: 10%;
-    top: 30%;
+    left: 11%;
+    top: 35%;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .caruser-open {
@@ -483,6 +489,17 @@ h6 {
 
 .ser-collapse-img {
     padding-right: 20px;
+    width: 50%;
+}
+
+.ser-collapse-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ser-collapse-carusel {
+    width: 50%;
 }
 
 /*Quote*/
@@ -495,7 +512,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 290px;
+    min-height: 290px;
 }
 
 .quote-icon {
@@ -521,7 +538,7 @@ h6 {
 
 .quote-txt {
     align-self: baseline;
-    padding-top: 62px;
+    padding: 62px 0;
 }
 
 .quote-text {
@@ -569,6 +586,11 @@ h6 {
     position: relative;
     cursor: pointer;
     background-color: #95e1d3;
+    margin-right: 20px;
+}
+
+.team-persons-block:last-child {
+    margin-right: 0;
 }
 
 .team-img {
@@ -635,16 +657,15 @@ h6 {
     transition: background-color 0.3s linear;
 }
 
-.team-names {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-
 .team-autor-name {
     text-transform: uppercase;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin: 0;
+}
+
+.team-names {
+    background: #fff;
+    padding-top: 20px;
 }
 
 .team-autor-prof {
@@ -658,12 +679,16 @@ h6 {
 .brands-positions {
     display: flex;
     min-height: 250px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .brands {
     background-color: #f8f8f8;
+}
+
+.brand-img img {
+    max-width: 100%;
 }
 
 /*What-We-Do*/
@@ -749,7 +774,7 @@ h6 {
     padding: 0;
 }
 
-.quote-icon {
+.circle-block {
     padding: 0;
     width: auto;
     height: auto;
