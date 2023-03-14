@@ -1,7 +1,7 @@
 @media (max-width:1230px) {
 
     .intro-title {
-        font-size: 120px;
+        font-size: 20px;
     }
     .intro-suptitle {
         font-size: 52px;
@@ -109,7 +109,29 @@
         font-size: 25px;
         transform: translate3d(0, -100%, 0);
     }
-
+    .clients {
+        padding: 40px 0;
+    }
+    .clients-content {
+        margin-top: 50px;
+    }
+    .open-map {
+        padding: 50px 0;
+    }
+    .footer-blog-block {
+        display: none;
+    }
+    .footer-grow-block {
+        flex-grow: 1;
+        padding-right: 0;
+    }
+    .footer-instagram {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-gallary {
+        justify-content: center;
+    }
 }
 
 @media (max-width:770px) {
@@ -185,6 +207,58 @@
     .wedo-gall-col {
         flex: initial;
     }
+    .clients-proffesion:after {
+        margin: 20px auto;
+    }
+    .clients-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .clients-img {
+        padding: 0 10px;
+    }
+    .clients-info {
+        text-align: center;
+    }
+    .clients-col {
+        flex: auto;
+    }
+    .clients-content {
+        flex-wrap: wrap;
+    }
+    .blog-img {
+        img {
+            max-width: 100%;
+            width: auto;
+            margin: 0 auto;
+        }
+    }
+    .blog-block {
+        padding-right: 0;
+        flex: auto;
+    }
+    .blog-inner {
+        flex-wrap: wrap;
+    }
+    .blog-date {
+        left: 160px;
+        bottom: 10px;
+    }
+    .blog-statistics {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .blog-text {
+        text-align: center;
+    }
+    .footer-inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-block {
+        width: 100%;
+    }
+
 }
 
 @media (max-width:575px) {
@@ -224,6 +298,10 @@
     .quote-autor {
         font-size: 19px;
     }
+    .blog-date {
+        left: 0;
+        bottom: 0;
+    }
 }
 
 @media (max-width: 525px) {
@@ -240,6 +318,21 @@
     }
     .wedo-gallery {
         padding: 0 20px;
+    }
+    .blog-date {
+        left: 40px;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 440px) {
+    .blog-date {
+        left: 0;
+        bottom: 0;
+    }
+    .footer-submit {
+        position: relative;
+        margin-top: 2px;
     }
 }
 

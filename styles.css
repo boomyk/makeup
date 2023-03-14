@@ -791,6 +791,7 @@ h6 {
 .clients {
     background: url(images/clients-bg.png) center no-repeat;
     padding: 100px 0;
+    background-size: cover;
 }
 
 .clients-tittle {
